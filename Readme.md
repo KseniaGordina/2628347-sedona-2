@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
-* Студент: [Ksenia Krestianinova](https://up.htmlacademy.ru/htmlcss-individual/2/user/2628347).
-* Наставник: `Неизвестно`.
+* Студент: [Ksenia Gordina](https://up.htmlacademy.ru/htmlcss-individual/2/user/2628347).
+* Наставник: [Александр Козюков](https://htmlacademy.ru/profile/id1119885).
 
 ---
 
