@@ -2,6 +2,7 @@
 
 * Студент: [Ksenia Gordina](https://up.htmlacademy.ru/htmlcss-individual/2/user/2628347).
 * Наставник: [Александр Козюков](https://htmlacademy.ru/profile/id1119885).
+* Сайт: [Мой проект Седона] (https://kseniagordina.github.io/2628347-sedona-2/).
 
 ---
 
