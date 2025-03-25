@@ -8,7 +8,7 @@
 
   <body>
     <header class="page-header">
-      <a class="logo-link"><img src="#" alt="Логотип проета " Седона""></a>
+      <a class="logo-link" aria-current="page" href="index.html"><img src="#" alt="Логотип проекта 'Седона'"></a>
       <nav class="navigation">
         <ul class="navigation-list">
           <li class="navigation-item">
@@ -18,7 +18,7 @@
             <a class="navigation-link" href="#">О Седоне</a>
           </li>
           <li class="navigation-item">
-            <a href="catalog.html" class="navigation-link">Гостиницы</a>
+            <a class="navigation-link" href="catalog.html">Гостиницы</a>
           </li>
         </ul>
         <ul class="navigation-user">
@@ -28,25 +28,23 @@
             </a>
           </li>
           <li class="navigation-item">
-            <a class="navigation-link fav" href="#">
+            <a class="navigation-link fav" href="#" aria-label="Мои избранные гостиницы">
               <span class="visially-hidden"> Мои избранные гостиницы</span>
             </a>
           </li>
           <li class="navigation-item">
-            <a class="navigation-btn-link" href="#">
+            <a class="navigation-btn-link" href="catalog.html">
               Хочу сюда
             </a>
           </li>
         </ul>
       </nav>
     </header>
-
-    <main class="main-index">
+    <main>
       <section class="top">
         <h1 class="visially-hidden">Седона - город в Аризоне</h1>
         <img class="top-image" src="#" alt="Добро пожаловать в Седону!">
       </section>
-
       <section class="advantages">
         <h2 class="visially-hidden">Приемущества Седоны</h2>
         <p class="advantages-title">Седона — небольшой городок в Аризоне, заслуживающий большего! </p>
@@ -76,29 +74,27 @@
           </li>
         </ul>
       </section>
-
-      <section class="reasons">
+      <section class="reason-slogan">
         <h2 class="visially-hidden">Причины приехать в Седону </h2>
         <p class="reason-title">Приезжайте в Седону отдохнуть в комфорте и уюте! </p>
         <p class="reason-discription">Опытный персонал и качественное обслуживание!</p>
-        <ul class="reasons-list">
-          <li class="reasons-item">
-            <h3 class="reasons-subtitle"> Жильё </h3>
+        <ul class="reason-list">
+          <li class="reason-item">
+            <h3 class="reason-subtitle"> Жильё </h3>
             <p class="reason-subdiscription"> Рекомендуем пожить <br> в настоящем мотеле, <br> всё как в кино! </p>
           </li>
-          <li class="reasons-item">
-            <h3 class="reasons-subtitle"> Еда </h3>
+          <li class="reason-item">
+            <h3 class="reason-subtitle"> Еда </h3>
             <p class="reason-subdiscription"> Всегда заказывайте <br> топовый фирменный бургер, <br> вы не
               разочаруетесь! </p>
           </li>
-          <li class="reasons-item">
-            <h3 class="reasons-subtitle"> Сувениры </h3>
+          <li class="reason-item">
+            <h3 class="reason-subtitle"> Сувениры </h3>
             <p class="reason-subdiscription"> Не только китайского, <br> но и настоящего местного <br> производства!
             </p>
           </li>
         </ul>
       </section>
-
       <section class="search">
         <h2 class="visially-hidden">Поиск гостиницы в Седоне </h2>
         <p class="search-title">Заинтересовались?</p>
@@ -106,7 +102,6 @@
           гостиниц в Седоне</p>
         <a class="search-btn-link" href="#">Поиск гостиницы в Седоне </a>
       </section>
-
       <section class="subscribe">
         <h2 class="visially-hidden">Рассылка полезной иноформации </h2>
         <p class="subscribe-title">Подпишитесь на рассылку</p>
@@ -118,32 +113,21 @@
         </form>
       </section>
     </main>
-
     <footer class="page-footer">
-      <section class="footer-content">
-        <h2 class="visially-hidden">Контакты </h2>
-        <ul class="social-list">
-          <li class="social-item">
-            <a class="social-link" href="https://vk.com/htmlacademy">
-              <span class="visually-hidden">Vkontakte</span>
-            </a>
-          </li>
-          <li class="social-item">
-            <a class="social-link" href="https://t.me/htmlacademy ">
-              <span class="visually-hidden">Telegram</span>
-            </a>
-          </li>
-          <li class="social-item">
-            <a class="social-link" href="https://www.youtube.com/user/htmlacademyru">
-              <span class="visually-hidden">Youtube</span>
-            </a>
-          </li>
-        </ul>
-        <a class="contact-phone" href="tel:+7 (812) 812-12-12">+7 (812) 812-12-12</a>
-        <a class="academy-logo-link" href="https://htmlacademy.ru/">
-          <span class="visually-hidden">Сайт HTMLAcademy</span>
-        </a>
-      </section>
+      <h2 class="visially-hidden">Контакты </h2>
+      <ul class="social-list">
+        <li class="social-item">
+          <a class="social-link" href="https://vk.com/htmlacademy" aria-label="Vkontakte"></a>
+        </li>
+        <li class="social-item">
+          <a class="social-link" href="https://t.me/htmlacademy" aria-label="Telegram"></a>
+        </li>
+        <li class="social-item">
+          <a class="social-link" href="https://www.youtube.com/user/htmlacademyru" aria-label="Youtube"></a>
+        </li>
+      </ul>
+      <a class="contact-phone" href="tel:+7 (812) 812-12-12">+7 (812) 812-12-12</a>
+      <a class="academy-logo-link" href="https://htmlacademy.ru/" aria-label="Сайт HTMLAcademy"></a>
     </footer>
   </body>
 
