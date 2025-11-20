@@ -1,4 +1,3 @@
-[Readme.md](https://github.com/user-attachments/files/23652590/Readme.md)
 # Личный проект «Седона»
 
 * Студент: [Ksenia Gordina](https://up.htmlacademy.ru/htmlcss-individual/2/user/2628347).
