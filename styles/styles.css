@@ -59,8 +59,15 @@ body {
   height: 64px;
 }
 
+.logo-container {
+  position: relative;
+  width: 140px;
+  height: 70px;
+  margin-left: 70px;
+}
+
 .logo-link {
-  padding-left: 70px;
+  position: absolute;
 }
 
 .navigation {
@@ -356,7 +363,7 @@ body {
 }
 
 .subscribe-text-container {
-  margin: 96px 258px 104px;
+  padding: 96px 258px 104px;
 }
 
 .subscribe-title {
@@ -466,7 +473,7 @@ body {
 .breadcrumbs-list {
   display: flex;
   margin: 0;
-  padding: 0; 
+  padding: 0;
   list-style-type: none;
 }
 
@@ -652,7 +659,7 @@ body {
 
 .pagination-container {
   display: flex;
-  padding: 16px; 
+  padding: 16px;
 }
 
 .pagination {
